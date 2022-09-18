@@ -1,4 +1,4 @@
-name_coffee = "---Welcome to Sho's Coffee---\n"  #HELLO
+name_coffee = "---Welcome to Sho's Coffee---\n"  #HELLO WORLD!
 name_menu = """\n---Choose the menu---
 1. Espresso
 2. Cappucino
