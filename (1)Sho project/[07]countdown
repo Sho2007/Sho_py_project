@@ -1,0 +1,17 @@
+def CD():
+    from datetime import datetime
+    import time
+
+    H = input("Hour: ")
+    M = input("Min: ")
+    # use your time zone 1-24 not 1-12am/pm 
+    time_H_start = str(H) # count the time to (Hour)
+    time_M_start = str(M) # count the time to (min)
+
+    while True:
+        now = datetime.now()
+        if now.strftime("%H:%M") != str(time_H_start) + ":" + str(time_M_start):
+            print("Time zone: " + now.strftime("%H:%M:%S"))
+            time.sleep(1)
+        else:
+            print("Time up!!") # When the time'up what do you want to make this script respond
